@@ -27,7 +27,7 @@ share.streamlit.io → New app → your repo → main file `app/dashboard.py`. F
 ## 7. Profile README snippet
 ```
 ### Featured project
-**[Crypto Sentiment Predictor](https://github.com/YOUR-USERNAME/crypto-sentiment-predictor)**: real-time news-sentiment forecasting with walk-forward validation, a fee-aware backtest and a live scoreboard. Python, scikit-learn, Streamlit.
+**[Crypto Sentiment Predictor](https://github.com/SRIKRISHNANASINA/crypto-sentiment-predictor)**: real-time news-sentiment forecasting with walk-forward validation, a fee-aware backtest and a live scoreboard. Python, scikit-learn, Streamlit.
 ```
 
 ## 8. LinkedIn post (edit with your real numbers)

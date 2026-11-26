@@ -1,6 +1,6 @@
 # 📈 Crypto News Sentiment & Price Prediction
 
-![CI](https://github.com/YOUR-USERNAME/crypto-sentiment-predictor/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/SRIKRISHNANASINA/crypto-sentiment-predictor/actions/workflows/ci.yml/badge.svg)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -50,7 +50,7 @@ Most student projects stop at "accuracy". This one tries to **falsify its own re
 
 ## Quick start
 ```bash
-git clone https://github.com/YOUR-USERNAME/crypto-sentiment-predictor.git
+git clone https://github.com/SRIKRISHNANASINA/crypto-sentiment-predictor.git
 cd crypto-sentiment-predictor
 python -m venv .venv && source .venv/bin/activate     # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
