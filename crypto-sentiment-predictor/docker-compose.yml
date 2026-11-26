@@ -1,0 +1,16 @@
+# docker compose up --build
+# collector: gathers news + prices every 5 min and retrains hourly
+# dashboard: http://localhost:8501
+services:
+  collector:
+    build: .
+    command: python -m crypto_sentiment.pipeline --loop --interval 300 --retrain-every 12
+    env_file: [.env]
+    volumes: ["./data:/app/data", "./models:/app/models"]
+    restart: unless-stopped
+  dashboard:
+    build: .
+    ports: ["8501:8501"]
+    env_file: [.env]
+    volumes: ["./data:/app/data", "./models:/app/models"]
+    restart: unless-stopped

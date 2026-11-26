@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+data/*.csv
+data/.demo
+models/metrics_*.json
+models/oos_*.csv
