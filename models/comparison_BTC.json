@@ -1,0 +1,222 @@
+{
+  "coin": "BTC",
+  "rows": 2865,
+  "n_splits": 5,
+  "synthetic_data": false,
+  "summary": {
+    "baseline_mean": {
+      "mean_mae": 0.4422100703150564,
+      "std_mae": 0.09032905412120838,
+      "folds_beating_baseline": 0,
+      "n_folds": 5,
+      "directional_accuracy": 0.5101803374054683,
+      "p_value_direction": 0.4336249535488024
+    },
+    "ridge": {
+      "mean_mae": 0.4454552765071383,
+      "std_mae": 0.08875137547178612,
+      "folds_beating_baseline": 2,
+      "n_folds": 5,
+      "directional_accuracy": 0.535194880744619,
+      "p_value_direction": 0.20155195456608474
+    },
+    "random_forest": {
+      "mean_mae": 0.4692640585714304,
+      "std_mae": 0.08533689045178602,
+      "folds_beating_baseline": 1,
+      "n_folds": 5,
+      "directional_accuracy": 0.5456660849331006,
+      "p_value_direction": 0.1578124487216705
+    },
+    "gradient_boosting": {
+      "mean_mae": 0.5204664040303232,
+      "std_mae": 0.10132953136551216,
+      "folds_beating_baseline": 0,
+      "n_folds": 5,
+      "directional_accuracy": 0.5194880744618965,
+      "p_value_direction": 0.3690684015209257
+    }
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "model": "baseline_mean",
+      "n_test": 343,
+      "mae": 0.5357948448930634,
+      "directional_accuracy": 0.42857142857142855,
+      "train_end": "2026-11-21 10:25:00",
+      "test_start": "2026-11-21 11:30:00"
+    },
+    {
+      "fold": 0,
+      "model": "ridge",
+      "n_test": 343,
+      "mae": 0.542178074567268,
+      "directional_accuracy": 0.5131195335276968,
+      "train_end": "2026-11-21 10:25:00",
+      "test_start": "2026-11-21 11:30:00"
+    },
+    {
+      "fold": 0,
+      "model": "random_forest",
+      "n_test": 343,
+      "mae": 0.5109249621494227,
+      "directional_accuracy": 0.5685131195335277,
+      "train_end": "2026-11-21 10:25:00",
+      "test_start": "2026-11-21 11:30:00"
+    },
+    {
+      "fold": 0,
+      "model": "gradient_boosting",
+      "n_test": 343,
+      "mae": 0.6252218102600173,
+      "directional_accuracy": 0.5072886297376094,
+      "train_end": "2026-11-21 10:25:00",
+      "test_start": "2026-11-21 11:30:00"
+    },
+    {
+      "fold": 1,
+      "model": "baseline_mean",
+      "n_test": 343,
+      "mae": 0.49563230763973143,
+      "directional_accuracy": 0.6355685131195336,
+      "train_end": "2026-11-22 15:00:00",
+      "test_start": "2026-11-22 16:05:00"
+    },
+    {
+      "fold": 1,
+      "model": "ridge",
+      "n_test": 343,
+      "mae": 0.4937156495092768,
+      "directional_accuracy": 0.6180758017492711,
+      "train_end": "2026-11-22 15:00:00",
+      "test_start": "2026-11-22 16:05:00"
+    },
+    {
+      "fold": 1,
+      "model": "random_forest",
+      "n_test": 343,
+      "mae": 0.5355320564405164,
+      "directional_accuracy": 0.5568513119533528,
+      "train_end": "2026-11-22 15:00:00",
+      "test_start": "2026-11-22 16:05:00"
+    },
+    {
+      "fold": 1,
+      "model": "gradient_boosting",
+      "n_test": 343,
+      "mae": 0.5565611701202808,
+      "directional_accuracy": 0.5947521865889213,
+      "train_end": "2026-11-22 15:00:00",
+      "test_start": "2026-11-22 16:05:00"
+    },
+    {
+      "fold": 2,
+      "model": "baseline_mean",
+      "n_test": 343,
+      "mae": 0.4401946881550045,
+      "directional_accuracy": 0.5743440233236151,
+      "train_end": "2026-11-23 19:35:00",
+      "test_start": "2026-11-23 20:40:00"
+    },
+    {
+      "fold": 2,
+      "model": "ridge",
+      "n_test": 343,
+      "mae": 0.4371883426884602,
+      "directional_accuracy": 0.5422740524781341,
+      "train_end": "2026-11-23 19:35:00",
+      "test_start": "2026-11-23 20:40:00"
+    },
+    {
+      "fold": 2,
+      "model": "random_forest",
+      "n_test": 343,
+      "mae": 0.45515525673032997,
+      "directional_accuracy": 0.5830903790087464,
+      "train_end": "2026-11-23 19:35:00",
+      "test_start": "2026-11-23 20:40:00"
+    },
+    {
+      "fold": 2,
+      "model": "gradient_boosting",
+      "n_test": 343,
+      "mae": 0.4787884810422017,
+      "directional_accuracy": 0.577259475218659,
+      "train_end": "2026-11-23 19:35:00",
+      "test_start": "2026-11-23 20:40:00"
+    },
+    {
+      "fold": 3,
+      "model": "baseline_mean",
+      "n_test": 343,
+      "mae": 0.4663302388667954,
+      "directional_accuracy": 0.49271137026239065,
+      "train_end": "2026-11-25 00:10:00",
+      "test_start": "2026-11-25 01:15:00"
+    },
+    {
+      "fold": 3,
+      "model": "ridge",
+      "n_test": 343,
+      "mae": 0.4727153125841201,
+      "directional_accuracy": 0.5393586005830904,
+      "train_end": "2026-11-25 00:10:00",
+      "test_start": "2026-11-25 01:15:00"
+    },
+    {
+      "fold": 3,
+      "model": "random_forest",
+      "n_test": 343,
+      "mae": 0.5356780620337552,
+      "directional_accuracy": 0.5335276967930029,
+      "train_end": "2026-11-25 00:10:00",
+      "test_start": "2026-11-25 01:15:00"
+    },
+    {
+      "fold": 3,
+      "model": "gradient_boosting",
+      "n_test": 343,
+      "mae": 0.5981736915605416,
+      "directional_accuracy": 0.45481049562682213,
+      "train_end": "2026-11-25 00:10:00",
+      "test_start": "2026-11-25 01:15:00"
+    },
+    {
+      "fold": 4,
+      "model": "baseline_mean",
+      "n_test": 347,
+      "mae": 0.2730982720206875,
+      "directional_accuracy": 0.4207492795389049,
+      "train_end": "2026-11-26 04:45:00",
+      "test_start": "2026-11-26 05:50:00"
+    },
+    {
+      "fold": 4,
+      "model": "ridge",
+      "n_test": 347,
+      "mae": 0.2814790031865665,
+      "directional_accuracy": 0.46397694524495675,
+      "train_end": "2026-11-26 04:45:00",
+      "test_start": "2026-11-26 05:50:00"
+    },
+    {
+      "fold": 4,
+      "model": "random_forest",
+      "n_test": 347,
+      "mae": 0.3090299555031274,
+      "directional_accuracy": 0.48703170028818443,
+      "train_end": "2026-11-26 04:45:00",
+      "test_start": "2026-11-26 05:50:00"
+    },
+    {
+      "fold": 4,
+      "model": "gradient_boosting",
+      "n_test": 347,
+      "mae": 0.3435868671685744,
+      "directional_accuracy": 0.46397694524495675,
+      "train_end": "2026-11-26 04:45:00",
+      "test_start": "2026-11-26 05:50:00"
+    }
+  ]
+}
