@@ -9,8 +9,8 @@ A real-time **research and forecasting system** that reads crypto news, scores s
 > B.Tech final-year capstone, CSE (Data Science), Audisankara College of Engineering & Technology (JNTUA), 2022-2026.
 > Educational project - **not financial advice**.
 
-<!-- Add screenshots here: docs/dashboard.png -->
-
+![Dashboard](docs/dashboard.png)
+docs
 ## Documentation
 [Architecture](docs/ARCHITECTURE.md) · [Model card](docs/MODEL_CARD.md) · [Interview guide](docs/INTERVIEW_GUIDE.md) · [GitHub setup](docs/GITHUB_SETUP.md) · [Changelog](CHANGELOG.md)
 
